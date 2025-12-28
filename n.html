@@ -1,0 +1,124 @@
+<aside id="sidebar" class="fixed top-0 left-0 w-64 h-full sidebar transform -translate-x-full z-30 shadow-xl flex flex-col">
+    <div class="flex items-center justify-between px-4 py-4 border-b border-gray-700">
+      <h2 class="text-lg font-semibold">Menu</h2>
+    </div>
+
+    <div class="px-4 py-2">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Cari aplikasi..."
+        class="w-full px-3 py-2 rounded-lg bg-gray-800 text-white text-sm focus:outline-none focus:ring-1 focus:ring-purple-500"
+      />
+    </div>
+
+    <div id="vipPanel" class="px-4 py-2 border-t border-gray-700">
+      <p class="text-xs text-gray-400 mb-1">VIP Access</p>
+      <div class="flex items-center space-x-1 min-w-0">
+        <input
+          type="password"
+          id="vipPassword"
+          placeholder="Kata sandi"
+          class="flex-1 min-w-0 px-2 py-1 text-sm rounded bg-gray-800 text-white focus:outline-none"
+        />
+        <button id="unlockVipBtn" class="px-2 py-1 bg-purple-600 hover:bg-purple-700 rounded text-xs whitespace-nowrap flex-shrink-0">
+          Unlock
+        </button>
+      </div>
+    </div>
+
+    <div class="sidebar-content flex-1 overflow-y-auto px-4 py-2 space-y-5">
+
+      <!-- MAIN -->
+      <div>
+        <div class="text-xs text-gray-400 uppercase tracking-wider mb-2">Main</div>
+        
+        <a href="https://lynk.id/berryv4/zjwzdn5zez9p" class="menu-link block py-2 text-sm text-gray-300 hover:text-white transition">
+          <span class="menu-icon inline-block w-5 mr-2"><i class="fas fa-users"></i></span> Join VIP Member
+        </a>
+
+        <a href="https://lynk.id/berrydev4" class="menu-link block py-2 text-sm text-gray-300 hover:text-white transition">
+          <span class="menu-icon inline-block w-5 mr-2"><i class="fas fa-layer-group"></i></span> Website Mod Mimin
+        </a>
+
+        <a href="https://lynk.id/berryv4" class="menu-link block py-2 text-sm text-gray-300 hover:text-white transition">
+          <span class="menu-icon inline-block w-5 mr-2"><i class="fas fa-cart-shopping"></i></span> Web Digital Product
+        </a>
+
+        <a href="https://buylink.id/berrystore" class="menu-link block py-2 text-sm text-gray-300 hover:text-white transition">
+          <span class="menu-icon inline-block w-5 mr-2"><i class="fas fa-gem"></i></span> Web Store Top Up
+        </a>
+
+        <a href="https://source-inspektor.edgeone.app" class="menu-link block py-2 text-sm text-gray-300 hover:text-white transition">
+          <span class="menu-icon inline-block w-5 mr-2"><i class="fas fa-code"></i></span> Get Source Code
+        </a>
+
+        <a href="#" onclick="shareWeb(); return false;" class="menu-link block py-2 text-sm text-gray-300 hover:text-white transition">
+          <span class="menu-icon inline-block w-5 mr-2"><i class="fas fa-share-alt"></i></span> Share Web
+        </a>
+
+        <a href="https://vt.tiktok.com/ZSUShQepB/" class="menu-link block py-2 text-sm text-gray-300 hover:text-white transition">
+          <span class="menu-icon inline-block w-5 mr-2"><i class="fa-solid fa-question"></i></span> Cara Melewati Link
+        </a>
+
+        <a href="#" id="spotifyBtn" class="menu-link block py-2 text-sm text-gray-300 hover:text-white transition">
+          <span class="menu-icon inline-block w-5 mr-2"><i class="fab fa-spotify"></i></span> Playlist Spotify
+        </a>
+
+        <a>
+          <button id="themeToggle" class="menu-link block py-2 text-sm text-gray-300 hover:text-white transition flex items-center">
+            <span class="menu-icon inline-block w-5 mr-2"><i class="fas fa-moon"></i></span> Mode Gelap
+          </button>
+        </a>
+      </div>
+
+      <!-- TOOLS -->
+      <div>
+        <div class="text-xs text-gray-400 uppercase tracking-wider mb-2">Tools</div>
+
+        <a href="https://requestadmin.edgeone.app/" class="menu-link block py-2 text-sm text-gray-300 hover:text-white transition">
+          <span class="menu-icon inline-block w-5 mr-2"><i class="fas fa-crown"></i></span> Request Mod
+        </a>
+
+        <a href="subway-json.html" class="menu-link block py-2 text-sm text-gray-300 hover:text-white transition">
+          <span class="menu-icon inline-block w-5 mr-2"><i class="fas fa-gamepad"></i></span> Subwaysurf Cheat
+        </a>
+
+        <a href="saluran-analyzer.html" class="menu-link block py-2 text-sm text-gray-300 hover:text-white transition">
+          <span class="menu-icon inline-block w-5 mr-2"><i class="fa-solid fa-magnifying-glass-chart"></i></span> Saluran Analyzer
+        </a>
+
+        <a href="QR-Generator.html" class="menu-link block py-2 text-sm text-gray-300 hover:text-white transition">
+          <span class="menu-icon inline-block w-5 mr-2"><i class="fas fa-qrcode"></i></span> QR Generator
+        </a>
+
+        <a href="meki-maker" class="menu-link with-new block py-2 text-sm text-gray-300 hover:text-white transition">
+          <span class="menu-icon inline-block w-5 mr-2"><i class="fa-regular fa-images"></i></span> Meki Maker
+        </a>
+        
+        <a href="https://ioslauncherberry.edgeone.app/" class="menu-link block py-2 text-sm text-gray-300 hover:text-white transition">
+          <span class="menu-icon inline-block w-5 mr-2"><i class="fa-brands fa-app-store-ios"></i></span> Apps Theme Premium
+        </a>
+
+        <a href="iqc.html" class="menu-link block py-2 text-sm text-gray-300 hover:text-white transition">
+          <span class="menu-icon inline-block w-5 mr-2"><i class="fa-brands fa-apple"></i></span> iPhone Quote Generator V4
+        </a>
+
+        <a href="fakecall.html" class="menu-link block py-2 text-sm text-gray-300 hover:text-white transition">
+          <span class="menu-icon inline-block w-5 mr-2"><i class="fa-brands fa-square-whatsapp"></i></span> Fake Call Generator
+        </a>
+
+        <a href="gfx.html" class="menu-link block py-2 text-sm text-gray-300 hover:text-white transition">
+          <span class="menu-icon inline-block w-5 mr-2"><i class="fa-solid fa-cubes"></i></span> GFX Tester
+        </a>
+
+        <a href="brat.html" class="menu-link block py-2 text-sm text-gray-300 hover:text-white transition">
+          <span class="menu-icon inline-block w-5 mr-2"><i class="fa-solid fa-indent"></i></span> Brat Generator V3
+        </a>
+
+        <a href="tweet.html" class="menu-link block py-2 text-sm text-gray-300 hover:text-white transition">
+          <span class="menu-icon inline-block w-5 mr-2"><i class="fa-brands fa-twitter"></i></span> Tweet Generator V2
+        </a>
+
+        <a href="fbq.html" class="menu-link block py-2 text-sm text-gray-300 hover:text-white transition">
+          <span class="menu-icon i%
